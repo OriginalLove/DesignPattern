@@ -9,4 +9,4 @@
 
 
 #个人网站
- [iuni.life](www.iuni.life)
+ [iuni.life](http://www.iuni.life)
