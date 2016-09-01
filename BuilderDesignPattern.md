@@ -1,10 +1,10 @@
 ---
 title: Android 建造者(Builder)模式
 date: 2016-08-03 13:56:23
-tags: Java 设计模式之建造者（Builder）模式
+tags: Java 设计模式
 ---
 
-# Android 建造者（Builder）模式
+
 
 ## 前言
 
@@ -12,7 +12,7 @@ tags: Java 设计模式之建造者（Builder）模式
 
 ## Builder Design Pattern 介绍
 
-* 建造者模式（Builder Pattern）也叫做生成器模式，Builder Design pattern  是一种**创造型模式**，Builder模式所解决的问题与对象的创建有关。它允许用户在不知道内部构建细节的情况下，可以更精细的控制对象的构造流程，Builder模式是为了将构造复杂对象的过程和他的部件解耦。Android 中我们最常用的Builder模式是AlterDialog.Builder。
+* 建造者模式（Builder Pattern）也叫做生成器模式，Builder Design pattern  是一种**创建型模式**，Builder模式所解决的问题与对象的创建有关。它允许用户在不知道内部构建细节的情况下，可以更精细的控制对象的构造流程，Builder模式是为了将构造复杂对象的过程和他的部件解耦。Android 中我们最常用的Builder模式是AlterDialog.Builder。
 
 * Builder 模式通常是以静态内部类的形式实现。
 
@@ -45,15 +45,15 @@ tags: Java 设计模式之建造者（Builder）模式
 
 *  **Builder抽象建造者**
 
-     规范产品的组建，一般是由子类实现。
+    规范产品的组建，一般是由子类实现。
 
 *  **ConcreateBuilder 具体建造者**
 
-     实现抽象类定义的所有方法，并且返回一个组建好的对象。
+    实现抽象类定义的所有方法，并且返回一个组建好的对象。
 
 *  **Director导演类**
 
-     负责安排已有模块的顺序，然后告诉Builder开始建造。
+    负责安排已有模块的顺序，然后告诉Builder开始建造。
 
 
 
@@ -137,7 +137,7 @@ tags: Java 设计模式之建造者（Builder）模式
 2.    电脑抽象类的具体实现，我们以Mac电脑为例
 
       ```java
-               /**
+            /**
       * Created by iuni.life on 16/8/2.
       *
       */
@@ -201,7 +201,7 @@ tags: Java 设计模式之建造者（Builder）模式
 3.    Builder抽象类
 
       ```java
-               /**
+            /**
       * Created by iuni.life on 16/8/2.
       * builder 抽象类
       */
@@ -244,7 +244,7 @@ tags: Java 设计模式之建造者（Builder）模式
 4.    Builder 的具体实现，因为我们是要组装一个Mac 电脑，所以需要MacBuilder
 
       ```java
-               /**
+            /**
       * Created by iuni.life on 16/8/2.
       */
        public class MacBuilder extends Builder {
@@ -320,7 +320,7 @@ tags: Java 设计模式之建造者（Builder）模式
 5.    Director 导演类
 
       ```java
-               /**
+            /**
       * Created by iuni.life on 16/8/2.
       */
         public class Director {
@@ -351,7 +351,7 @@ tags: Java 设计模式之建造者（Builder）模式
 6.    测试类 test
 
       ```java
-               /**
+            /**
       * Created by iuni.life on 16/8/2.
       * 经典的Builder模式实现较为繁琐,文章后面会列举一个简单的
       */
@@ -563,9 +563,4 @@ tags: Java 设计模式之建造者（Builder）模式
 ## 参考资料
 
 * ***<<设计模式之蝉>>***  秦小波 著
-
-
-## 个人博客
-
-[iuni.life](http://www.iuni.life)
 
