@@ -29,7 +29,7 @@ Java 设计模式有23种，分三大类，创建型的五种，结构型的七�
 * [观察者模式](https://github.com/OriginalLove/DesignPattern/blob/master/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 * 迭代器模式
 * 责任链模式
-* 命令模式
+* [命令模式](https://github.com/OriginalLove/DesignPattern/blob/master/CommandPattern.md)
 * 备忘录模式
 * 状态模式
 * 访问者模式
