@@ -1,8 +1,6 @@
----
 title: 命令模式
 date: 2016-09-08 09:29:13
 tags: Java 设计模式
----
 
 **摘要:**
 
@@ -242,17 +240,19 @@ tags: Java 设计模式
            invoker.removeAction(baiduCommand);
            System.out.println("------------------我是华丽的分割线-------------------------------");
            invoker.allAction();
-
-
-       }
-
-
+         }
    }
+
+     
    ```
+
+   ​
 
 8. 运行结果。
 
-    ![mlms2](CommandPattern/mlms2.png)
+   ![mlms2](CommandPattern/mlms2.png)
+
+
 
 ## 命令模式优缺点
 
@@ -274,8 +274,6 @@ tags: Java 设计模式
 
 * 如果有N个命令，Command子类就是N个，子类膨胀的非常大。
 
-
-
 ## 后记
 
 ​	文章不足之处，望大家多多指点，共同学习，共同进步。
@@ -286,5 +284,4 @@ tags: Java 设计模式
 
 ## 个人博客
 
-如想获得更好阅读体验，请访问个人博客网站：[iuni.life](http://www.iuni.life)
-
+如想获得更好阅读体验，请访问个人博客网站：[iplugin.cn](http://www.iplugin.cn)
